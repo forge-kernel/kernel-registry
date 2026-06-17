@@ -1,1568 +1,1577 @@
 {
-  "name": "forge-kernel/kernel",
-  "version": "0.1.0",
-  "manifest_version": "1.0",
-  "description": "Forge Kernel",
-  "homepage": "https://forge-kernel.github.io/",
-  "repository": "https://github.com/forge-kernel/kernel",
-  "require": {
-    "php": ">=8.3"
-  },
-  "authors": [
-    {
-      "name": "Forge Kernel Team",
-      "homepage": "https://forge-kernel.github.io/"
+    "name": "forge-kernel/kernel",
+    "version": "0.1.0",
+    "manifest_version": "1.0",
+    "description": "Forge Kernel",
+    "homepage": "https://forge-kernel.github.io/",
+    "repository": "https://github.com/forge-kernel/kernel",
+    "require": {
+        "php": ">=8.3"
+    },
+    "authors": [
+        {
+            "name": "Forge Kernel Team",
+            "homepage": "https://forge-kernel.github.io/"
+        }
+    ],
+    "versions": {
+        "0.1.0": {
+            "download_url": "versions/0.1.0.zip",
+            "integrity": "6d1194a25f32f7e17fa507a6b61499d0084edea1bd863f0f7603eba0d0475490",
+            "release_date": "2025-03-22",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "latest": "6.0.0",
+        "0.1.1": {
+            "download_url": "versions/0.1.1.zip",
+            "integrity": "53834ab2a404792d5c0a41c26544f30627e6e3601e74e3a8feba6a709d124532",
+            "release_date": "2025-03-23",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.2": {
+            "download_url": "versions/0.1.2.zip",
+            "integrity": "57ff16b906e31ea5f34742bd8eac90f45967c3f05f88ec6853c9f0e2c3e7983e",
+            "release_date": "2025-03-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.4": {
+            "download_url": "versions/0.1.4.zip",
+            "integrity": "d6d5df91e771a0aa2d7fe55b50af6ff18ebcfdd0e819a428129e1df9a4f0b07a",
+            "release_date": "2025-03-26",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.5": {
+            "download_url": "versions/0.1.5.zip",
+            "integrity": "bffb9c4a43c1edc5a91cf7f16632d44797845417c2e3e09403acf99b8d1de4f8",
+            "release_date": "2025-03-26",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.6": {
+            "download_url": "versions/0.1.6.zip",
+            "integrity": "a411502052b4921c4f246f71b3553f6ff98954abb3d0589e96bc598a89933190",
+            "release_date": "2025-03-26",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.7": {
+            "download_url": "versions/0.1.7.zip",
+            "integrity": "52074f6465500b57f9ec2452e2045842c43514f232e80c2d6d1342729ad1c5d2",
+            "release_date": "2025-03-26",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.8": {
+            "download_url": "versions/0.1.8.zip",
+            "integrity": "18a7332d2f6bfd88229fdb12becac3af6bfe30d1887250f43566c0df76995c97",
+            "release_date": "2025-03-27",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.9": {
+            "download_url": "versions/0.1.9.zip",
+            "integrity": "62125cba3f2e3a913fdeaaa777958c864ff39b4f3a98eaa1d8c1b7e352bd9abd",
+            "release_date": "2025-03-27",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.10": {
+            "download_url": "versions/0.1.10.zip",
+            "integrity": "ff7a00f8430dd89d98e4afde7cb3621876515c28afcc51d8538e5f197634ca11",
+            "release_date": "2025-03-27",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.11": {
+            "download_url": "versions/0.1.11.zip",
+            "integrity": "75f3bf5ff824ad9903c0c6d356da8bf161b69dfff90672aa45276d9c4af60714",
+            "release_date": "2025-03-28",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.12": {
+            "download_url": "versions/0.1.12.zip",
+            "integrity": "4de9af00701fd2bcc33d5c3747cb95ddfce358b025de5e38b29539bdb3441bc5",
+            "release_date": "2025-03-29",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.3": {
+            "download_url": "versions/0.1.3.zip",
+            "integrity": "a7550ed1cb35c68b99f088dbfa843be88dcaae12a4ca505a56be985f51a97f00",
+            "release_date": "2025-03-29",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.14": {
+            "download_url": "versions/0.1.14.zip",
+            "integrity": "3834840109caebd72c3fdf278189835a8d7bb74f94cd48bb333e1ff11399844a",
+            "release_date": "2025-03-31",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.15": {
+            "download_url": "versions/0.1.15.zip",
+            "integrity": "0ef1c40d3a6f0e659e39da7f8ac07bb03e2b0f63bd8e77341a14e8d8cb4d271e",
+            "release_date": "2025-04-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.16": {
+            "download_url": "versions/0.1.16.zip",
+            "integrity": "2062026de4d3fc7a8ed87783b887c044f40f83dba51dfd4edc52bf544ead7761",
+            "release_date": "2025-04-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.17": {
+            "download_url": "versions/0.1.17.zip",
+            "integrity": "1a24f2369b07c34ea199af954e16d3f60c155e4cc8386d709e7a3ca30451faa0",
+            "release_date": "2025-04-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.18": {
+            "download_url": "versions/0.1.18.zip",
+            "integrity": "124f6df1ae65bc8c63e9c261390cc0684d400ffbf63abce063bb80cd40895806",
+            "release_date": "2025-04-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.19": {
+            "download_url": "versions/0.1.19.zip",
+            "integrity": "151d207ee8ab6608c1aea41a45fd862eba40872b55278a68821129882a36b107",
+            "release_date": "2025-04-04",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.20": {
+            "download_url": "versions/0.1.20.zip",
+            "integrity": "9ae88afc78597b9efbd147bee3af694ef99041e1bdd9d38169ac00812b15bf8e",
+            "release_date": "2025-04-04",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.21": {
+            "download_url": "versions/0.1.21.zip",
+            "integrity": "407a402d7ebab0c0df156c9d8b2d318b9dc2bf732241591a1157dc1d68d563d6",
+            "release_date": "2025-04-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.22": {
+            "download_url": "versions/0.1.22.zip",
+            "integrity": "51d6021b69d45f1b7e172ccbb61ad5445e3bc70f07ab6b08a837faba034419ec",
+            "release_date": "2025-04-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.23": {
+            "download_url": "versions/0.1.23.zip",
+            "integrity": "af400ab0502cd48d47d6a1436f3b2e99144cf4060275cea532aeaa126051a172",
+            "release_date": "2025-04-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.24": {
+            "download_url": "versions/0.1.24.zip",
+            "integrity": "d275945d08d0bf1527303e87d566e4f1b8fc804fae9df4eaabf79d6215cb200e",
+            "release_date": "2025-04-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.25": {
+            "download_url": "versions/0.1.25.zip",
+            "integrity": "f15b5ea2b5b3aa7204dbca85da67c155daf7c3abac6f39144698264af10d4e83",
+            "release_date": "2025-04-08",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.26": {
+            "download_url": "versions/0.1.26.zip",
+            "integrity": "8faf70318bb5772f21d0ee9548a43be59d71d52eb55ecd488586a30ed5ec8571",
+            "release_date": "2025-04-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.27": {
+            "download_url": "versions/0.1.27.zip",
+            "integrity": "0b19ebb5a54e09fa140da5e2a6d0e676bf456d000e2ce594e00679f914a3a8c7",
+            "release_date": "2025-04-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.28": {
+            "download_url": "versions/0.1.28.zip",
+            "integrity": "7a55e595b69e7912ff7f9bfed19f1acde8cde7218d1da8a60a776af198513fd3",
+            "release_date": "2025-04-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.29": {
+            "download_url": "versions/0.1.29.zip",
+            "integrity": "8c4b5dc751025ea119f7a4d33507b99e061e2a8eff7c14c1f12d326491f9c8c1",
+            "release_date": "2025-04-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.30": {
+            "download_url": "versions/0.1.30.zip",
+            "integrity": "aaeac715a4eec9e280c95325f7617ad46a3a61fe877cbcd52f4c3b4bfa57fd94",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.31": {
+            "download_url": "versions/0.1.31.zip",
+            "integrity": "c64b121a6c90e42086b2dd0e5453b2b7e6630bbc3fe685cbaaad6bacd8e7973c",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.32": {
+            "download_url": "versions/0.1.32.zip",
+            "integrity": "52f06093e082fe393fcbacfb8d36f77a40925f654e910c8f4f9544df0ce997d0",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.33": {
+            "download_url": "versions/0.1.33.zip",
+            "integrity": "5dbdb982d483fe6792f03927faace5f7668de850e5932b9e0f39a91e91e89543",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.34": {
+            "download_url": "versions/0.1.34.zip",
+            "integrity": "087e92266cd8c79ab79e455267f727008ed1204a785fffcaefab9b60dd23eeb4",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.35": {
+            "download_url": "versions/0.1.35.zip",
+            "integrity": "7196358a3a73c6d364bc6327501ec18150f59fd6444694914be7ec0833a87994",
+            "release_date": "2025-04-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.37": {
+            "download_url": "versions/0.1.37.zip",
+            "integrity": "acb823bfedd3918d26896eb408c6303ca28d8d3b0e459cf8515142aaa4770d51",
+            "release_date": "2025-04-28",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.38": {
+            "download_url": "versions/0.1.38.zip",
+            "integrity": "a0305dbaec48fc7e596aab226271507dc8cba3815fcb4047406bba23d268d761",
+            "release_date": "2025-04-28",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.39": {
+            "download_url": "versions/0.1.39.zip",
+            "integrity": "e4d00850d07d7a31a31d035ef827f6f1f2f9c5f4fa83ee6ae9e97df020e32f50",
+            "release_date": "2025-05-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.40": {
+            "download_url": "versions/0.1.40.zip",
+            "integrity": "a851009afadf00b876683dcdb23d38c9afb285532f9fa9514ea2ac67b5efd837",
+            "release_date": "2025-05-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.42": {
+            "download_url": "versions/0.1.42.zip",
+            "integrity": "438e8be5a874e5e28008b8b12cba760706941b49241759cab9dd47391d88364b",
+            "release_date": "2025-05-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.43": {
+            "download_url": "versions/0.1.43.zip",
+            "integrity": "0aa904b21cde694c24235fafa5f44c652f3d9608d142a338634df1aba4cf338b",
+            "release_date": "2025-08-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.44": {
+            "download_url": "versions/0.1.44.zip",
+            "integrity": "5b2a0af5ea940428334115adc8d542656abae1b1762e03b447f8233ca3515192",
+            "release_date": "2025-10-06",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.45": {
+            "download_url": "versions/0.1.45.zip",
+            "integrity": "4c2bae40f92cb17beb7485f8248884b98598d8b570363cfcf6989a097087a48a",
+            "release_date": "2025-10-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.46": {
+            "download_url": "versions/0.1.46.zip",
+            "integrity": "661aeaa61bda36499b8d8bc16fe9223f4be05fca84641ed08c382d40531a8b0d",
+            "release_date": "2025-10-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.1.47": {
+            "download_url": "versions/0.1.47.zip",
+            "integrity": "e46a91eea1cb5253798686586d63efefc8b0dc85eedd05fd5b97a8d061ae33fd",
+            "release_date": "2025-10-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.2.0": {
+            "download_url": "versions/0.2.0.zip",
+            "integrity": "5652060d47507be607e895687c5bb481fe5d9834a610f384f8ee3c6e567a52af",
+            "release_date": "2025-10-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.2.1": {
+            "download_url": "versions/0.2.1.zip",
+            "integrity": "7b963c57f29068db1c63c0b792da2c1527383f78302cfa9d70b88ee0220c0739",
+            "release_date": "2025-10-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.2.2": {
+            "download_url": "versions/0.2.2.zip",
+            "integrity": "f1e367b99c48731926e99a1bcc8a55ae8de486a833310252586ef166a6779359",
+            "release_date": "2025-10-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.2.3": {
+            "download_url": "versions/0.2.3.zip",
+            "integrity": "e93cb37c5b3b33c9a3227a4edbf453591bf225f20dd24ba446103ea6ebb6f9d2",
+            "release_date": "2025-10-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.3.0": {
+            "download_url": "versions/0.3.0.zip",
+            "integrity": "ba30098f867caed70a65137a23dd999847d39308293cbe2e4e682d0730829c17",
+            "release_date": "2025-10-12",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.3.1": {
+            "download_url": "versions/0.3.1.zip",
+            "integrity": "8d53824b5b4ae4ab86135ea85e57130ca2af0bbc5983da8bf7e91d608b721281",
+            "release_date": "2025-10-12",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.3.2": {
+            "download_url": "versions/0.3.2.zip",
+            "integrity": "842897be71b86a0f13093880055d100821b6779b25f8b11ef641e78348c8b9ea",
+            "release_date": "2025-10-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.4.0": {
+            "download_url": "versions/0.4.0.zip",
+            "integrity": "97395931a5e9cdcb8040d4cefb9789ee07a4a754112104be88db3daf2e8ad687",
+            "release_date": "2025-10-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.4.1": {
+            "download_url": "versions/0.4.1.zip",
+            "integrity": "60ff52e8630f6fec8704448dfc8c1141281ff42a3386bcfdf6bfdc8ef1ed0360",
+            "release_date": "2025-10-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.4.2": {
+            "download_url": "versions/0.4.2.zip",
+            "integrity": "6374adb2b6d0a6e5223e0bea8579842de509240ffa2bbb888ea60b09d49f906c",
+            "release_date": "2025-10-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.4.4": {
+            "download_url": "versions/0.4.4.zip",
+            "integrity": "ae0da98ab316ab3b30017db20dd6fe29da0acefb8edaefd4950b24d0f2925bd7",
+            "release_date": "2025-10-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.4.5": {
+            "download_url": "versions/0.4.5.zip",
+            "integrity": "ee9ad40945fe2f1029390394d56c0720b994c4c1096ab84f2e85693c5f0e99f1",
+            "release_date": "2025-10-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.5.0": {
+            "download_url": "versions/0.5.0.zip",
+            "integrity": "71229ff59f79320edf453022dce7a70647748512283256359c5b27e74c760aa3",
+            "release_date": "2025-10-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.5.2": {
+            "download_url": "versions/0.5.2.zip",
+            "integrity": "78a6fa761c294c3994e10615aa785b8e1c23d3a01713bc66b1b58ca6b49d0eb4",
+            "release_date": "2025-10-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.5.3": {
+            "download_url": "versions/0.5.3.zip",
+            "integrity": "bea63628a0be1154b63f6b7fe77ba2d3bcd80273fb886c965c4561b80583d4d9",
+            "release_date": "2025-10-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.5.4": {
+            "download_url": "versions/0.5.4.zip",
+            "integrity": "c750b4a9b5f751f72c9cac8b48a2b31dd01959f07d7646d82dab8861cbfb0405",
+            "release_date": "2025-10-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.6.0": {
+            "download_url": "versions/0.6.0.zip",
+            "integrity": "10c5423fba314a3180835fd9fd6c8a39438d8efb9635f2e4f7473d17d14dc26a",
+            "release_date": "2025-10-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.6.1": {
+            "download_url": "versions/0.6.1.zip",
+            "integrity": "7c376e9f586e7ac4b36c0aa0e1fbc27e018f3b73a2a1bd7039e3358e20935832",
+            "release_date": "2025-10-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.6.2": {
+            "download_url": "versions/0.6.2.zip",
+            "integrity": "9a9adf918b8b2e9ebf13bd9ba599f85f1fc430190893d2c4e5e273f59ae0339b",
+            "release_date": "2025-10-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.6.8": {
+            "download_url": "versions/0.6.8.zip",
+            "integrity": "7c1c5643ec49cf5bf04df9b823397df4e503aefcceffb6f095ae20621be90388",
+            "release_date": "2025-10-20",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.6.9": {
+            "download_url": "versions/0.6.9.zip",
+            "integrity": "9eebc7f2def471e9d0925cc9261720d8c3f4b3c1081c77ccc6c13c521c70d757",
+            "release_date": "2025-10-21",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.7.0": {
+            "download_url": "versions/0.7.0.zip",
+            "integrity": "1ab9b251446a21ca06ceb6f3d8c97d72ddce3479deac0093da340e5afc40869f",
+            "release_date": "2025-10-21",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.7.1": {
+            "download_url": "versions/0.7.1.zip",
+            "integrity": "5ff3a6955aed3fc185ec2108ab80f9f000c93aaeb24537e4118d8ddaea6513c9",
+            "release_date": "2025-10-22",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.0": {
+            "download_url": "versions/0.8.0.zip",
+            "integrity": "cd6c91b15763bda139a9b9380d327edf1da794288a162fefda6aabda6a221b48",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.1": {
+            "download_url": "versions/0.8.1.zip",
+            "integrity": "126ca0484cb3c40aea9b0c15be749dbb8b3041468fd73221710c9d3b358d8016",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.2": {
+            "download_url": "versions/0.8.2.zip",
+            "integrity": "a5b50f98084b87cb58229a0b6923bf58a28cafbbcd6e4c65a64e88d7f3d5f540",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.3": {
+            "download_url": "versions/0.8.3.zip",
+            "integrity": "85658c9ab0a8c83663094d641b8650fcc78c51fadf5ec200f3e771fd6c4568ec",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.4": {
+            "download_url": "versions/0.8.4.zip",
+            "integrity": "3c8cfb37923f1bd7c38a764d3a1cfe5857be6da7ac86a88e2e67ec689f93078e",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.5": {
+            "download_url": "versions/0.8.5.zip",
+            "integrity": "84216fcc2d6ee42fb1fb55851301d96218a7715b92eaedfcff6d5a798874b305",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.6": {
+            "download_url": "versions/0.8.6.zip",
+            "integrity": "f59c966f89bf2b0e38c0f6d752deb7091d6ed5c7cbd70b084991b77089e421a3",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.7": {
+            "download_url": "versions/0.8.7.zip",
+            "integrity": "257aa71b9ec5d912bf000a774c7588f2cb21855b46ef110299d339e635f7235c",
+            "release_date": "2025-10-25",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.8": {
+            "download_url": "versions/0.8.8.zip",
+            "integrity": "b80b56fd0e3caf0ec46846c659324b438bc3e6aa62483184371d53faae85f741",
+            "release_date": "2025-10-26",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.9": {
+            "download_url": "versions/0.8.9.zip",
+            "integrity": "01bdcf0bbd4755ea2021c262449ffd3e75b9893dba3afc5ed1772173fa200234",
+            "release_date": "2026-01-01",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.10": {
+            "download_url": "versions/0.8.10.zip",
+            "integrity": "d8ab998e79c400489fb60c447afcd629d39e446bf095967596528ba34afbd10a",
+            "release_date": "2026-01-01",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.8.11": {
+            "download_url": "versions/0.8.11.zip",
+            "integrity": "c2155d991a88c0942979a0701146e6d8ac75a94520e9a1a28c5c2bcd675fc165",
+            "release_date": "2026-01-02",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.9.0": {
+            "download_url": "versions/0.9.0.zip",
+            "integrity": "67becd5414cdc28ed599b155c103bbb054f7ee16a8c4d887b2025321c935a45c",
+            "release_date": "2026-01-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.10.0": {
+            "download_url": "versions/0.10.0.zip",
+            "integrity": "9010a247e55f3139f0ffc7500346929e668b8c9f5fbf02fcf49a3b95067a7d98",
+            "release_date": "2026-01-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.10.1": {
+            "download_url": "versions/0.10.1.zip",
+            "integrity": "e7d5c9fc46e72249802901837710793aa9ef7df62e4579a473a20b5f207241bf",
+            "release_date": "2026-01-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.10.2": {
+            "download_url": "versions/0.10.2.zip",
+            "integrity": "b466977684e1ae797e7adda1bdb157610aa308d05ecf284846131aaa851260f1",
+            "release_date": "2026-01-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.10.3": {
+            "download_url": "versions/0.10.3.zip",
+            "integrity": "1189e67036f52338f05874ef3e6c82e58c57c6d8b91a9ea8dd1135ec6f6a2384",
+            "release_date": "2026-01-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "0.11.0": {
+            "download_url": "versions/0.11.0.zip",
+            "integrity": "3e9444cf1ca6a88719057d7fe49284b8f007ab944e9c43262f91da29f011ff08",
+            "release_date": "2026-01-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.0.0": {
+            "download_url": "versions/1.0.0.zip",
+            "integrity": "df35b76989256b8b7b91d61aadc469bd4283e44fab71d99f7fda01b696a3c40f",
+            "release_date": "2026-01-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.1.0": {
+            "download_url": "versions/1.1.0.zip",
+            "integrity": "48a55957f1d913f58dadaad2fd563838decbcd476df5501b9b852ac700b58fb8",
+            "release_date": "2026-01-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.1.1": {
+            "download_url": "versions/1.1.1.zip",
+            "integrity": "a0af39faf2bb83f1270921684ba91ee9866120a652fc83aa4c0065e10d1969b1",
+            "release_date": "2026-01-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.2.0": {
+            "download_url": "versions/1.2.0.zip",
+            "integrity": "837c2750a8f86cd9df83a555c7751b9a33cc9a534b3a6833b6063124c468895b",
+            "release_date": "2026-01-06",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.3.0": {
+            "download_url": "versions/1.3.0.zip",
+            "integrity": "de8daeaa8867f8805461ac54232af25f8921dbcabaa7fa1d1dab3b9b205d31cf",
+            "release_date": "2026-01-06",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.4.0": {
+            "download_url": "versions/1.4.0.zip",
+            "integrity": "b76bfbc194589a8657b64b59df7c292ccff7071cfc843eb14d7f89bb66af39d1",
+            "release_date": "2026-01-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.4.1": {
+            "download_url": "versions/1.4.1.zip",
+            "integrity": "ee7579f170428dc514185f683afc9bb25c44c581d2b566bcd6aa1ea1f7be0bc3",
+            "release_date": "2026-01-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.4.2": {
+            "download_url": "versions/1.4.2.zip",
+            "integrity": "7ee553e30459e6330002b99066c04863640e9fa44809baec45e76920d13835a6",
+            "release_date": "2026-01-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.5.0": {
+            "download_url": "versions/1.5.0.zip",
+            "integrity": "63e0a86c0bebb5d5b709dd4f7b7f5e9d23f3b7e17e5acea5e245c25e686f170c",
+            "release_date": "2026-01-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.5.1": {
+            "download_url": "versions/1.5.1.zip",
+            "integrity": "ea73893bb23ef35901b908827cb2e250732ca3d365f906667526836bd67d7dde",
+            "release_date": "2026-01-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.5.2": {
+            "download_url": "versions/1.5.2.zip",
+            "integrity": "9bf799163107bd3d7dfcfcce2ec78b04797007896314c8e80305219d7dc09667",
+            "release_date": "2026-01-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "1.6.0": {
+            "download_url": "versions/1.6.0.zip",
+            "integrity": "86d11be8f296a75d15630b67fe4d7c5d871df2dc2a1b0e5477cf25f8af882632",
+            "release_date": "2026-01-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.0.0": {
+            "download_url": "versions/2.0.0.zip",
+            "integrity": "7961cc70ceaa4ff27a6dc0dc62774cbfa4df3bcb7ea05a000afd3da2cdeb0104",
+            "release_date": "2026-01-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.1.0": {
+            "download_url": "versions/2.1.0.zip",
+            "integrity": "09484353211a14964a7cfd279b648f40ab68839daa6d316213d8b05a18b6955c",
+            "release_date": "2026-01-12",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.2.0": {
+            "download_url": "versions/2.2.0.zip",
+            "integrity": "6202ddfd65031aac46987d4f3f7429c8210def08b8a76c810436f9b7d7a35f72",
+            "release_date": "2026-01-12",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.3.0": {
+            "download_url": "versions/2.3.0.zip",
+            "integrity": "f82e81e5b9e4b54f12c7d4785930c7176edc49b58273ba03b0f87a057c30d088",
+            "release_date": "2026-01-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.4.0": {
+            "download_url": "versions/2.4.0.zip",
+            "integrity": "b890cdaac062b95869b3c4e94b5e0fc5845e268c3eddbdcabf2029b47ebb7f5b",
+            "release_date": "2026-01-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.5.0": {
+            "download_url": "versions/2.5.0.zip",
+            "integrity": "2bdce021ab022d36a4a07c8139ab61d13578684e2cf648253dee1f19ab1c8fd2",
+            "release_date": "2026-01-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.6.0": {
+            "download_url": "versions/2.6.0.zip",
+            "integrity": "a3f799187fd72c4d424931eefce42b4aa357897aa5a07384fe1aad0a65445a24",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.7.0": {
+            "download_url": "versions/2.7.0.zip",
+            "integrity": "653c2573b95a1ccf8ea82b98b044ea48791a6fb1172bbcb85f87bc8fe4eae192",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.8.0": {
+            "download_url": "versions/2.8.0.zip",
+            "integrity": "47549ac99502b16c8212ca63f6909216dc3f3dc1ee8cd08a3c281954789eea62",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.9.0": {
+            "download_url": "versions/2.9.0.zip",
+            "integrity": "614d64af423d10b9b83ad4580752a4468d4994331afe4baf56a6398424ac5541",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.10.0": {
+            "download_url": "versions/2.10.0.zip",
+            "integrity": "ff714da45b92dfeb2218ef8fe11e0ccad80c0b30acebd722e56ea124ec1a4e50",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.11.0": {
+            "download_url": "versions/2.11.0.zip",
+            "integrity": "5e0b35173fc332c8bc14a75a299b5d3d16357e275690c5c89449af743cb53b43",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.12.0": {
+            "download_url": "versions/2.12.0.zip",
+            "integrity": "6f112dd5e96f5fa7434e9c1d275104847d43402f8a67cb82a1802c3ac0cd7b10",
+            "release_date": "2026-01-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.13.0": {
+            "download_url": "versions/2.13.0.zip",
+            "integrity": "2eecb7f991df0e5049341baf504789de228735f7d0d5f2a91a8287b495c2532a",
+            "release_date": "2026-01-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.14.0": {
+            "download_url": "versions/2.14.0.zip",
+            "integrity": "b4535fc6adde7392188e8f12388bf083d74c7e3bdf1a0aa73fd0582305c4f13d",
+            "release_date": "2026-01-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.15.0": {
+            "download_url": "versions/2.15.0.zip",
+            "integrity": "01fff1e3c00d6a6a2d24ef5c179e48a72271445e930609716cec4eb5f971a3fe",
+            "release_date": "2026-01-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.16.0": {
+            "download_url": "versions/2.16.0.zip",
+            "integrity": "b35e8b756f7e18c1848762f696711fb6c331037b22488b437df155731461cb78",
+            "release_date": "2026-01-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.16.1": {
+            "download_url": "versions/2.16.1.zip",
+            "integrity": "c17051da235e7c57e0ffc5ff1c34e44a6524923c45e5ba6756b4442837e6f230",
+            "release_date": "2026-01-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.17.0": {
+            "download_url": "versions/2.17.0.zip",
+            "integrity": "cdab222dc10e0084ef26c1b11a00fd21aec9c608efa49d539ad49d9fb57676a8",
+            "release_date": "2026-01-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "2.18.0": {
+            "download_url": "versions/2.18.0.zip",
+            "integrity": "9b4559caca0431193869c869a45d39466294289c2b11c9b546e0699637460a04",
+            "release_date": "2026-01-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "3.0.0": {
+            "download_url": "versions/3.0.0.zip",
+            "integrity": "926fd14ec892696a8e9f1fa2675f8d6200dc7d24a4a6b52fee6204768ae688c8",
+            "release_date": "2026-01-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "3.1.0": {
+            "download_url": "versions/3.1.0.zip",
+            "integrity": "40bb667801d0b93aa60482db1f4bb382376f2209f02740c91f844d9a0c471f13",
+            "release_date": "2026-01-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "3.2.0": {
+            "download_url": "versions/3.2.0.zip",
+            "integrity": "8834e143561eeff9483da95664e8b4175bb5f88d1ba671d83028452ea60dab89",
+            "release_date": "2026-01-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "3.3.0": {
+            "download_url": "versions/3.3.0.zip",
+            "integrity": "48ba7bb8994f3c60fc859aadd901367f6dcb9b70896663614a07bded71a72ba5",
+            "release_date": "2026-01-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "3.4.0": {
+            "download_url": "versions/3.4.0.zip",
+            "integrity": "5e7d93e8ce8c2224976211106aee1b987da8f3457ed26c09ed5adc6007a5357f",
+            "release_date": "2026-01-17",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.0.0": {
+            "download_url": "versions/4.0.0.zip",
+            "integrity": "87bd2930eea58cebdf16160249533d58668ca7d4ac4415e0a30fb70035dcccf0",
+            "release_date": "2026-01-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.1.0": {
+            "download_url": "versions/4.1.0.zip",
+            "integrity": "ced5293447ed8e73ddf3c232d79b1d1c8e92acd6ff7d41c4e9b9d1ae9276dacd",
+            "release_date": "2026-01-18",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.2.0": {
+            "download_url": "versions/4.2.0.zip",
+            "integrity": "1ddfcf9279397ce7e080922c7af8143bba3b21df1d81d8fb1d8a30a2571a396d",
+            "release_date": "2026-01-19",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.3.0": {
+            "download_url": "versions/4.3.0.zip",
+            "integrity": "3f97bd2be7b3018f24cab110dd48cf27397c076adb87b869d06e2d5d0c34959f",
+            "release_date": "2026-01-21",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.4.0": {
+            "download_url": "versions/4.4.0.zip",
+            "integrity": "b0c63d66d7ef84fe4029f895a026b81f93c01035a83907e39832b7e4a0908553",
+            "release_date": "2026-01-21",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.5.0": {
+            "download_url": "versions/4.5.0.zip",
+            "integrity": "6c5ac01fa2d7babed6a0c135117247cabf5d8fd9f91f824369ba0fe1ec1440b6",
+            "release_date": "2026-02-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.5.1": {
+            "download_url": "versions/4.5.1.zip",
+            "integrity": "7960130c77f5e4b06056449fdc406171b2f6d768d4725ab6f34d4677ded5e37c",
+            "release_date": "2026-02-03",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.6.0": {
+            "download_url": "versions/4.6.0.zip",
+            "integrity": "6ab3352e06cfaffb9f326189e437b294fca793f6f54de60157d1311e213c1569",
+            "release_date": "2026-03-02",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.7.0": {
+            "download_url": "versions/4.7.0.zip",
+            "integrity": "c25a903a661a4745356f9bd12881eda6cd8ebaeb69e68bb446c230a5a619e0b1",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.8.0": {
+            "download_url": "versions/4.8.0.zip",
+            "integrity": "f7cebd8971d12bafabc7fc855168a556d03d96ceeaf5cf8a242d08bbfa92e3fe",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.9.0": {
+            "download_url": "versions/4.9.0.zip",
+            "integrity": "7d22675ff9cfa82325656a472a21829e205a77ddec893c550689d4128867944c",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.10.0": {
+            "download_url": "versions/4.10.0.zip",
+            "integrity": "06c028bb9e5d42998cb59d50f9d4ba625fad33a636b3f2e2d11ef828d7b4591d",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.11.0": {
+            "download_url": "versions/4.11.0.zip",
+            "integrity": "79f38868fab6db80d9626f15cdd5d04485a0c8ea2563fe295007ea4c20de38b8",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.12.0": {
+            "download_url": "versions/4.12.0.zip",
+            "integrity": "237ab4769bca238b97c98ce9fda24d4e498376a45f3d8fb74aa689a1527e2117",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.0": {
+            "download_url": "versions/4.13.0.zip",
+            "integrity": "4fbacc456b4f5d41772f5725c19042b70250e5e11a08ce71205fb21ac65e0e0e",
+            "release_date": "2026-03-07",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.1": {
+            "download_url": "versions/4.13.1.zip",
+            "integrity": "6e1ac65060fb2ed36795b1d55105755d273b3c2f9dd2e52a210081a55fdd0596",
+            "release_date": "2026-03-27",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.2": {
+            "download_url": "versions/4.13.2.zip",
+            "integrity": "f0e6bf6bc56db59512d7219cbc31c736e0be30b1226e2ac8bbd4a30523037de2",
+            "release_date": "2026-04-04",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.3": {
+            "download_url": "versions/4.13.3.zip",
+            "integrity": "1700815c4b81ab69e272a9919658c6bd8eb93794358583c9ed41f96ac40b3abd",
+            "release_date": "2026-04-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.4": {
+            "download_url": "versions/4.13.4.zip",
+            "integrity": "e0bf2c5f895af2e3e545be864b4e3c4133f493f3c15db8977eb4ef9cbc86e257",
+            "release_date": "2026-04-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.5": {
+            "download_url": "versions/4.13.5.zip",
+            "integrity": "1345145d9022615608ef07f05c5999b49af6fcd38525d96c8206283ddb9027dd",
+            "release_date": "2026-04-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.6": {
+            "download_url": "versions/4.13.6.zip",
+            "integrity": "688534eb8928707e319c323c4024215367f182247b3bbafed47638332d5166bb",
+            "release_date": "2026-04-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.7": {
+            "download_url": "versions/4.13.7.zip",
+            "integrity": "403702dbbe6f1579450f139426aa1d3deaec32d52351c7a502f8ea273951d3fe",
+            "release_date": "2026-06-04",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.8": {
+            "download_url": "versions/4.13.8.zip",
+            "integrity": "7acaa6afdc2e02ce0f772e2b4f13bbe7f3d44ddd6b43422726d744ff424dfac9",
+            "release_date": "2026-06-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.13.9": {
+            "download_url": "versions/4.13.9.zip",
+            "integrity": "79d629819f642b634845b90b0470b4796e89b12524a3119c580d38fd327b7f94",
+            "release_date": "2026-06-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.14.0": {
+            "download_url": "versions/4.14.0.zip",
+            "integrity": "11c1c9cb99eea9a24297a133a947ce3bad1525af4fee6d907ddd9250ea0dd0fd",
+            "release_date": "2026-06-05",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.14.1": {
+            "download_url": "versions/4.14.1.zip",
+            "integrity": "e49aaeca8b1f7670dd4535956c6d5b22ca84450bad88189dfca85cd29603feb3",
+            "release_date": "2026-06-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.14.2": {
+            "download_url": "versions/4.14.2.zip",
+            "integrity": "cf5874e2c3ccb6c0b1073961201685d499cdb6664300674ff6abbc835c3831dc",
+            "release_date": "2026-06-09",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.14.3": {
+            "download_url": "versions/4.14.3.zip",
+            "integrity": "5520ecb8cc029ed52c2ccc47bdbd8222dcd2ffcf81cb30113495a8d4787ebc73",
+            "release_date": "2026-06-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.0": {
+            "download_url": "versions/4.15.0.zip",
+            "integrity": "69bcb4f03e346afaadc4b378a3bd7eabb23d91e0df22ac672847a98adbbefe14",
+            "release_date": "2026-06-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.1": {
+            "download_url": "versions/4.15.1.zip",
+            "integrity": "f132c4f38f428e98e21002a640975d291e6156999412a44db895ec52a542a696",
+            "release_date": "2026-06-10",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.2": {
+            "download_url": "versions/4.15.2.zip",
+            "integrity": "6398dfbd5cb54fc92479b38db66de69d91e8e829b07d517bda10674a9290d286",
+            "release_date": "2026-06-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.3": {
+            "download_url": "versions/4.15.3.zip",
+            "integrity": "4309b594fe18db573e1780f11bcad9b9786558788d4d8db131d5caa1eff3ae23",
+            "release_date": "2026-06-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.4": {
+            "download_url": "versions/4.15.4.zip",
+            "integrity": "265f441430ae3a7e13ca410c0abf829ece1f36a462cacb6b77fdfe6b8b8c1ab2",
+            "release_date": "2026-06-11",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.5": {
+            "download_url": "versions/4.15.5.zip",
+            "integrity": "ba989bfead9fa45b8aff58c58c303e363dc163e19d6e95f01d9a9c9c6ce9be51",
+            "release_date": "2026-06-12",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.6": {
+            "download_url": "versions/4.15.6.zip",
+            "integrity": "8b9b284f32f1f946837db3ecadfc135cd589217af9f375f015c33432949b6868",
+            "release_date": "2026-06-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.7": {
+            "download_url": "versions/4.15.7.zip",
+            "integrity": "a8113d15a28631c9964ed0103209ef8ffe1c5310fe84d6113c380bb70b36aab6",
+            "release_date": "2026-06-13",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.8": {
+            "download_url": "versions/4.15.8.zip",
+            "integrity": "97dff501f6661047269e8657c4f4caedc5d08aa443561172440a874d0c471902",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.9": {
+            "download_url": "versions/4.15.9.zip",
+            "integrity": "aa61682f74655640e8fb3c630d783b29d5a6ee50424830b84da80f5b59064e9f",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.10": {
+            "download_url": "versions/4.15.10.zip",
+            "integrity": "f5fde75cbe56afff5d5585001c8bfba37ebbf743c5d51e2b4f20efb761008880",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.11": {
+            "download_url": "versions/4.15.11.zip",
+            "integrity": "22ae97ae36615a9154bb3a4edcf77c4288595c5d3a585d7a607951eb50bbe1b5",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.12": {
+            "download_url": "versions/4.15.12.zip",
+            "integrity": "f684b4310743e2c78151838005b825dc57371cd8d7a8336d3fd2ad5b64cb09e2",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.13": {
+            "download_url": "versions/4.15.13.zip",
+            "integrity": "e432a8390860e7c3ccecf45797799f83fd9e143a77f08339d986a047d27a092c",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "4.15.14": {
+            "download_url": "versions/4.15.14.zip",
+            "integrity": "8db6145501579fdd5fcededaa4741f7f35775f8ccf32c6d7dcb558d32ff8a786",
+            "release_date": "2026-06-14",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.0": {
+            "download_url": "versions/5.0.0.zip",
+            "integrity": "3db1bcdd5562970fc82db2adb4f9c73d08301043ac389bac1916691c58d17d3a",
+            "release_date": "2026-06-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.1": {
+            "download_url": "versions/5.0.1.zip",
+            "integrity": "8bd4b634890f39b80d4929fd1db7ae0c62af0d7bf2fb026fccb619451c1ab547",
+            "release_date": "2026-06-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.2": {
+            "download_url": "versions/5.0.2.zip",
+            "integrity": "3f83bc169ffe24ef6b57d361ac03dc81c78cf57c805387bde1cb66bbb1e37ee6",
+            "release_date": "2026-06-15",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.3": {
+            "download_url": "versions/5.0.3.zip",
+            "integrity": "540d7bef5699382aa435217180e1b3aff3c5d61a85b668d288aaedcf9d0a9a4b",
+            "release_date": "2026-06-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.4": {
+            "download_url": "versions/5.0.4.zip",
+            "integrity": "015ebac9e3f837492d253c3b6f7c3cc31623c187d93e1b372d01034cdf7f9665",
+            "release_date": "2026-06-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "5.0.5": {
+            "download_url": "versions/5.0.5.zip",
+            "integrity": "3de9289bd6c7a03c739674f8a7de00ce9da4eae0a63e30288a73d36a5cc1c6f3",
+            "release_date": "2026-06-16",
+            "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        },
+        "6.0.0": {
+            "download_url": "versions/6.0.0.zip",
+            "integrity": "3856df8c6de6987ec194d169ca6d77afef4e64cbcd5017e848a379476989817e",
+            "release_date": "2026-06-17",
+            "release_notes_url": "https://github.com/forge-kernel/kernel/blob/main/CHANGELOG.md",
+            "require": {
+                "php": ">=8.3"
+            }
+        }
     }
-  ],
-  "versions": {
-    "0.1.0": {
-      "download_url": "versions/0.1.0.zip",
-      "integrity": "6d1194a25f32f7e17fa507a6b61499d0084edea1bd863f0f7603eba0d0475490",
-      "release_date": "2025-03-22",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "latest": "5.0.5",
-    "0.1.1": {
-      "download_url": "versions/0.1.1.zip",
-      "integrity": "53834ab2a404792d5c0a41c26544f30627e6e3601e74e3a8feba6a709d124532",
-      "release_date": "2025-03-23",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.2": {
-      "download_url": "versions/0.1.2.zip",
-      "integrity": "57ff16b906e31ea5f34742bd8eac90f45967c3f05f88ec6853c9f0e2c3e7983e",
-      "release_date": "2025-03-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.4": {
-      "download_url": "versions/0.1.4.zip",
-      "integrity": "d6d5df91e771a0aa2d7fe55b50af6ff18ebcfdd0e819a428129e1df9a4f0b07a",
-      "release_date": "2025-03-26",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.5": {
-      "download_url": "versions/0.1.5.zip",
-      "integrity": "bffb9c4a43c1edc5a91cf7f16632d44797845417c2e3e09403acf99b8d1de4f8",
-      "release_date": "2025-03-26",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.6": {
-      "download_url": "versions/0.1.6.zip",
-      "integrity": "a411502052b4921c4f246f71b3553f6ff98954abb3d0589e96bc598a89933190",
-      "release_date": "2025-03-26",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.7": {
-      "download_url": "versions/0.1.7.zip",
-      "integrity": "52074f6465500b57f9ec2452e2045842c43514f232e80c2d6d1342729ad1c5d2",
-      "release_date": "2025-03-26",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.8": {
-      "download_url": "versions/0.1.8.zip",
-      "integrity": "18a7332d2f6bfd88229fdb12becac3af6bfe30d1887250f43566c0df76995c97",
-      "release_date": "2025-03-27",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.9": {
-      "download_url": "versions/0.1.9.zip",
-      "integrity": "62125cba3f2e3a913fdeaaa777958c864ff39b4f3a98eaa1d8c1b7e352bd9abd",
-      "release_date": "2025-03-27",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.10": {
-      "download_url": "versions/0.1.10.zip",
-      "integrity": "ff7a00f8430dd89d98e4afde7cb3621876515c28afcc51d8538e5f197634ca11",
-      "release_date": "2025-03-27",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.11": {
-      "download_url": "versions/0.1.11.zip",
-      "integrity": "75f3bf5ff824ad9903c0c6d356da8bf161b69dfff90672aa45276d9c4af60714",
-      "release_date": "2025-03-28",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.12": {
-      "download_url": "versions/0.1.12.zip",
-      "integrity": "4de9af00701fd2bcc33d5c3747cb95ddfce358b025de5e38b29539bdb3441bc5",
-      "release_date": "2025-03-29",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.3": {
-      "download_url": "versions/0.1.3.zip",
-      "integrity": "a7550ed1cb35c68b99f088dbfa843be88dcaae12a4ca505a56be985f51a97f00",
-      "release_date": "2025-03-29",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.14": {
-      "download_url": "versions/0.1.14.zip",
-      "integrity": "3834840109caebd72c3fdf278189835a8d7bb74f94cd48bb333e1ff11399844a",
-      "release_date": "2025-03-31",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.15": {
-      "download_url": "versions/0.1.15.zip",
-      "integrity": "0ef1c40d3a6f0e659e39da7f8ac07bb03e2b0f63bd8e77341a14e8d8cb4d271e",
-      "release_date": "2025-04-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.16": {
-      "download_url": "versions/0.1.16.zip",
-      "integrity": "2062026de4d3fc7a8ed87783b887c044f40f83dba51dfd4edc52bf544ead7761",
-      "release_date": "2025-04-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.17": {
-      "download_url": "versions/0.1.17.zip",
-      "integrity": "1a24f2369b07c34ea199af954e16d3f60c155e4cc8386d709e7a3ca30451faa0",
-      "release_date": "2025-04-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.18": {
-      "download_url": "versions/0.1.18.zip",
-      "integrity": "124f6df1ae65bc8c63e9c261390cc0684d400ffbf63abce063bb80cd40895806",
-      "release_date": "2025-04-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.19": {
-      "download_url": "versions/0.1.19.zip",
-      "integrity": "151d207ee8ab6608c1aea41a45fd862eba40872b55278a68821129882a36b107",
-      "release_date": "2025-04-04",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.20": {
-      "download_url": "versions/0.1.20.zip",
-      "integrity": "9ae88afc78597b9efbd147bee3af694ef99041e1bdd9d38169ac00812b15bf8e",
-      "release_date": "2025-04-04",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.21": {
-      "download_url": "versions/0.1.21.zip",
-      "integrity": "407a402d7ebab0c0df156c9d8b2d318b9dc2bf732241591a1157dc1d68d563d6",
-      "release_date": "2025-04-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.22": {
-      "download_url": "versions/0.1.22.zip",
-      "integrity": "51d6021b69d45f1b7e172ccbb61ad5445e3bc70f07ab6b08a837faba034419ec",
-      "release_date": "2025-04-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.23": {
-      "download_url": "versions/0.1.23.zip",
-      "integrity": "af400ab0502cd48d47d6a1436f3b2e99144cf4060275cea532aeaa126051a172",
-      "release_date": "2025-04-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.24": {
-      "download_url": "versions/0.1.24.zip",
-      "integrity": "d275945d08d0bf1527303e87d566e4f1b8fc804fae9df4eaabf79d6215cb200e",
-      "release_date": "2025-04-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.25": {
-      "download_url": "versions/0.1.25.zip",
-      "integrity": "f15b5ea2b5b3aa7204dbca85da67c155daf7c3abac6f39144698264af10d4e83",
-      "release_date": "2025-04-08",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.26": {
-      "download_url": "versions/0.1.26.zip",
-      "integrity": "8faf70318bb5772f21d0ee9548a43be59d71d52eb55ecd488586a30ed5ec8571",
-      "release_date": "2025-04-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.27": {
-      "download_url": "versions/0.1.27.zip",
-      "integrity": "0b19ebb5a54e09fa140da5e2a6d0e676bf456d000e2ce594e00679f914a3a8c7",
-      "release_date": "2025-04-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.28": {
-      "download_url": "versions/0.1.28.zip",
-      "integrity": "7a55e595b69e7912ff7f9bfed19f1acde8cde7218d1da8a60a776af198513fd3",
-      "release_date": "2025-04-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.29": {
-      "download_url": "versions/0.1.29.zip",
-      "integrity": "8c4b5dc751025ea119f7a4d33507b99e061e2a8eff7c14c1f12d326491f9c8c1",
-      "release_date": "2025-04-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.30": {
-      "download_url": "versions/0.1.30.zip",
-      "integrity": "aaeac715a4eec9e280c95325f7617ad46a3a61fe877cbcd52f4c3b4bfa57fd94",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.31": {
-      "download_url": "versions/0.1.31.zip",
-      "integrity": "c64b121a6c90e42086b2dd0e5453b2b7e6630bbc3fe685cbaaad6bacd8e7973c",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.32": {
-      "download_url": "versions/0.1.32.zip",
-      "integrity": "52f06093e082fe393fcbacfb8d36f77a40925f654e910c8f4f9544df0ce997d0",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.33": {
-      "download_url": "versions/0.1.33.zip",
-      "integrity": "5dbdb982d483fe6792f03927faace5f7668de850e5932b9e0f39a91e91e89543",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.34": {
-      "download_url": "versions/0.1.34.zip",
-      "integrity": "087e92266cd8c79ab79e455267f727008ed1204a785fffcaefab9b60dd23eeb4",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.35": {
-      "download_url": "versions/0.1.35.zip",
-      "integrity": "7196358a3a73c6d364bc6327501ec18150f59fd6444694914be7ec0833a87994",
-      "release_date": "2025-04-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.37": {
-      "download_url": "versions/0.1.37.zip",
-      "integrity": "acb823bfedd3918d26896eb408c6303ca28d8d3b0e459cf8515142aaa4770d51",
-      "release_date": "2025-04-28",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.38": {
-      "download_url": "versions/0.1.38.zip",
-      "integrity": "a0305dbaec48fc7e596aab226271507dc8cba3815fcb4047406bba23d268d761",
-      "release_date": "2025-04-28",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.39": {
-      "download_url": "versions/0.1.39.zip",
-      "integrity": "e4d00850d07d7a31a31d035ef827f6f1f2f9c5f4fa83ee6ae9e97df020e32f50",
-      "release_date": "2025-05-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.40": {
-      "download_url": "versions/0.1.40.zip",
-      "integrity": "a851009afadf00b876683dcdb23d38c9afb285532f9fa9514ea2ac67b5efd837",
-      "release_date": "2025-05-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.42": {
-      "download_url": "versions/0.1.42.zip",
-      "integrity": "438e8be5a874e5e28008b8b12cba760706941b49241759cab9dd47391d88364b",
-      "release_date": "2025-05-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.43": {
-      "download_url": "versions/0.1.43.zip",
-      "integrity": "0aa904b21cde694c24235fafa5f44c652f3d9608d142a338634df1aba4cf338b",
-      "release_date": "2025-08-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.44": {
-      "download_url": "versions/0.1.44.zip",
-      "integrity": "5b2a0af5ea940428334115adc8d542656abae1b1762e03b447f8233ca3515192",
-      "release_date": "2025-10-06",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.45": {
-      "download_url": "versions/0.1.45.zip",
-      "integrity": "4c2bae40f92cb17beb7485f8248884b98598d8b570363cfcf6989a097087a48a",
-      "release_date": "2025-10-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.46": {
-      "download_url": "versions/0.1.46.zip",
-      "integrity": "661aeaa61bda36499b8d8bc16fe9223f4be05fca84641ed08c382d40531a8b0d",
-      "release_date": "2025-10-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.1.47": {
-      "download_url": "versions/0.1.47.zip",
-      "integrity": "e46a91eea1cb5253798686586d63efefc8b0dc85eedd05fd5b97a8d061ae33fd",
-      "release_date": "2025-10-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.2.0": {
-      "download_url": "versions/0.2.0.zip",
-      "integrity": "5652060d47507be607e895687c5bb481fe5d9834a610f384f8ee3c6e567a52af",
-      "release_date": "2025-10-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.2.1": {
-      "download_url": "versions/0.2.1.zip",
-      "integrity": "7b963c57f29068db1c63c0b792da2c1527383f78302cfa9d70b88ee0220c0739",
-      "release_date": "2025-10-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.2.2": {
-      "download_url": "versions/0.2.2.zip",
-      "integrity": "f1e367b99c48731926e99a1bcc8a55ae8de486a833310252586ef166a6779359",
-      "release_date": "2025-10-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.2.3": {
-      "download_url": "versions/0.2.3.zip",
-      "integrity": "e93cb37c5b3b33c9a3227a4edbf453591bf225f20dd24ba446103ea6ebb6f9d2",
-      "release_date": "2025-10-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.3.0": {
-      "download_url": "versions/0.3.0.zip",
-      "integrity": "ba30098f867caed70a65137a23dd999847d39308293cbe2e4e682d0730829c17",
-      "release_date": "2025-10-12",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.3.1": {
-      "download_url": "versions/0.3.1.zip",
-      "integrity": "8d53824b5b4ae4ab86135ea85e57130ca2af0bbc5983da8bf7e91d608b721281",
-      "release_date": "2025-10-12",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.3.2": {
-      "download_url": "versions/0.3.2.zip",
-      "integrity": "842897be71b86a0f13093880055d100821b6779b25f8b11ef641e78348c8b9ea",
-      "release_date": "2025-10-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.4.0": {
-      "download_url": "versions/0.4.0.zip",
-      "integrity": "97395931a5e9cdcb8040d4cefb9789ee07a4a754112104be88db3daf2e8ad687",
-      "release_date": "2025-10-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.4.1": {
-      "download_url": "versions/0.4.1.zip",
-      "integrity": "60ff52e8630f6fec8704448dfc8c1141281ff42a3386bcfdf6bfdc8ef1ed0360",
-      "release_date": "2025-10-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.4.2": {
-      "download_url": "versions/0.4.2.zip",
-      "integrity": "6374adb2b6d0a6e5223e0bea8579842de509240ffa2bbb888ea60b09d49f906c",
-      "release_date": "2025-10-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.4.4": {
-      "download_url": "versions/0.4.4.zip",
-      "integrity": "ae0da98ab316ab3b30017db20dd6fe29da0acefb8edaefd4950b24d0f2925bd7",
-      "release_date": "2025-10-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.4.5": {
-      "download_url": "versions/0.4.5.zip",
-      "integrity": "ee9ad40945fe2f1029390394d56c0720b994c4c1096ab84f2e85693c5f0e99f1",
-      "release_date": "2025-10-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.5.0": {
-      "download_url": "versions/0.5.0.zip",
-      "integrity": "71229ff59f79320edf453022dce7a70647748512283256359c5b27e74c760aa3",
-      "release_date": "2025-10-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.5.2": {
-      "download_url": "versions/0.5.2.zip",
-      "integrity": "78a6fa761c294c3994e10615aa785b8e1c23d3a01713bc66b1b58ca6b49d0eb4",
-      "release_date": "2025-10-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.5.3": {
-      "download_url": "versions/0.5.3.zip",
-      "integrity": "bea63628a0be1154b63f6b7fe77ba2d3bcd80273fb886c965c4561b80583d4d9",
-      "release_date": "2025-10-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.5.4": {
-      "download_url": "versions/0.5.4.zip",
-      "integrity": "c750b4a9b5f751f72c9cac8b48a2b31dd01959f07d7646d82dab8861cbfb0405",
-      "release_date": "2025-10-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.6.0": {
-      "download_url": "versions/0.6.0.zip",
-      "integrity": "10c5423fba314a3180835fd9fd6c8a39438d8efb9635f2e4f7473d17d14dc26a",
-      "release_date": "2025-10-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.6.1": {
-      "download_url": "versions/0.6.1.zip",
-      "integrity": "7c376e9f586e7ac4b36c0aa0e1fbc27e018f3b73a2a1bd7039e3358e20935832",
-      "release_date": "2025-10-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.6.2": {
-      "download_url": "versions/0.6.2.zip",
-      "integrity": "9a9adf918b8b2e9ebf13bd9ba599f85f1fc430190893d2c4e5e273f59ae0339b",
-      "release_date": "2025-10-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.6.8": {
-      "download_url": "versions/0.6.8.zip",
-      "integrity": "7c1c5643ec49cf5bf04df9b823397df4e503aefcceffb6f095ae20621be90388",
-      "release_date": "2025-10-20",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.6.9": {
-      "download_url": "versions/0.6.9.zip",
-      "integrity": "9eebc7f2def471e9d0925cc9261720d8c3f4b3c1081c77ccc6c13c521c70d757",
-      "release_date": "2025-10-21",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.7.0": {
-      "download_url": "versions/0.7.0.zip",
-      "integrity": "1ab9b251446a21ca06ceb6f3d8c97d72ddce3479deac0093da340e5afc40869f",
-      "release_date": "2025-10-21",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.7.1": {
-      "download_url": "versions/0.7.1.zip",
-      "integrity": "5ff3a6955aed3fc185ec2108ab80f9f000c93aaeb24537e4118d8ddaea6513c9",
-      "release_date": "2025-10-22",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.0": {
-      "download_url": "versions/0.8.0.zip",
-      "integrity": "cd6c91b15763bda139a9b9380d327edf1da794288a162fefda6aabda6a221b48",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.1": {
-      "download_url": "versions/0.8.1.zip",
-      "integrity": "126ca0484cb3c40aea9b0c15be749dbb8b3041468fd73221710c9d3b358d8016",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.2": {
-      "download_url": "versions/0.8.2.zip",
-      "integrity": "a5b50f98084b87cb58229a0b6923bf58a28cafbbcd6e4c65a64e88d7f3d5f540",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.3": {
-      "download_url": "versions/0.8.3.zip",
-      "integrity": "85658c9ab0a8c83663094d641b8650fcc78c51fadf5ec200f3e771fd6c4568ec",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.4": {
-      "download_url": "versions/0.8.4.zip",
-      "integrity": "3c8cfb37923f1bd7c38a764d3a1cfe5857be6da7ac86a88e2e67ec689f93078e",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.5": {
-      "download_url": "versions/0.8.5.zip",
-      "integrity": "84216fcc2d6ee42fb1fb55851301d96218a7715b92eaedfcff6d5a798874b305",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.6": {
-      "download_url": "versions/0.8.6.zip",
-      "integrity": "f59c966f89bf2b0e38c0f6d752deb7091d6ed5c7cbd70b084991b77089e421a3",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.7": {
-      "download_url": "versions/0.8.7.zip",
-      "integrity": "257aa71b9ec5d912bf000a774c7588f2cb21855b46ef110299d339e635f7235c",
-      "release_date": "2025-10-25",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.8": {
-      "download_url": "versions/0.8.8.zip",
-      "integrity": "b80b56fd0e3caf0ec46846c659324b438bc3e6aa62483184371d53faae85f741",
-      "release_date": "2025-10-26",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.9": {
-      "download_url": "versions/0.8.9.zip",
-      "integrity": "01bdcf0bbd4755ea2021c262449ffd3e75b9893dba3afc5ed1772173fa200234",
-      "release_date": "2026-01-01",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.10": {
-      "download_url": "versions/0.8.10.zip",
-      "integrity": "d8ab998e79c400489fb60c447afcd629d39e446bf095967596528ba34afbd10a",
-      "release_date": "2026-01-01",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.8.11": {
-      "download_url": "versions/0.8.11.zip",
-      "integrity": "c2155d991a88c0942979a0701146e6d8ac75a94520e9a1a28c5c2bcd675fc165",
-      "release_date": "2026-01-02",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.9.0": {
-      "download_url": "versions/0.9.0.zip",
-      "integrity": "67becd5414cdc28ed599b155c103bbb054f7ee16a8c4d887b2025321c935a45c",
-      "release_date": "2026-01-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.10.0": {
-      "download_url": "versions/0.10.0.zip",
-      "integrity": "9010a247e55f3139f0ffc7500346929e668b8c9f5fbf02fcf49a3b95067a7d98",
-      "release_date": "2026-01-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.10.1": {
-      "download_url": "versions/0.10.1.zip",
-      "integrity": "e7d5c9fc46e72249802901837710793aa9ef7df62e4579a473a20b5f207241bf",
-      "release_date": "2026-01-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.10.2": {
-      "download_url": "versions/0.10.2.zip",
-      "integrity": "b466977684e1ae797e7adda1bdb157610aa308d05ecf284846131aaa851260f1",
-      "release_date": "2026-01-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.10.3": {
-      "download_url": "versions/0.10.3.zip",
-      "integrity": "1189e67036f52338f05874ef3e6c82e58c57c6d8b91a9ea8dd1135ec6f6a2384",
-      "release_date": "2026-01-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "0.11.0": {
-      "download_url": "versions/0.11.0.zip",
-      "integrity": "3e9444cf1ca6a88719057d7fe49284b8f007ab944e9c43262f91da29f011ff08",
-      "release_date": "2026-01-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.0.0": {
-      "download_url": "versions/1.0.0.zip",
-      "integrity": "df35b76989256b8b7b91d61aadc469bd4283e44fab71d99f7fda01b696a3c40f",
-      "release_date": "2026-01-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.1.0": {
-      "download_url": "versions/1.1.0.zip",
-      "integrity": "48a55957f1d913f58dadaad2fd563838decbcd476df5501b9b852ac700b58fb8",
-      "release_date": "2026-01-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.1.1": {
-      "download_url": "versions/1.1.1.zip",
-      "integrity": "a0af39faf2bb83f1270921684ba91ee9866120a652fc83aa4c0065e10d1969b1",
-      "release_date": "2026-01-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.2.0": {
-      "download_url": "versions/1.2.0.zip",
-      "integrity": "837c2750a8f86cd9df83a555c7751b9a33cc9a534b3a6833b6063124c468895b",
-      "release_date": "2026-01-06",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.3.0": {
-      "download_url": "versions/1.3.0.zip",
-      "integrity": "de8daeaa8867f8805461ac54232af25f8921dbcabaa7fa1d1dab3b9b205d31cf",
-      "release_date": "2026-01-06",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.4.0": {
-      "download_url": "versions/1.4.0.zip",
-      "integrity": "b76bfbc194589a8657b64b59df7c292ccff7071cfc843eb14d7f89bb66af39d1",
-      "release_date": "2026-01-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.4.1": {
-      "download_url": "versions/1.4.1.zip",
-      "integrity": "ee7579f170428dc514185f683afc9bb25c44c581d2b566bcd6aa1ea1f7be0bc3",
-      "release_date": "2026-01-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.4.2": {
-      "download_url": "versions/1.4.2.zip",
-      "integrity": "7ee553e30459e6330002b99066c04863640e9fa44809baec45e76920d13835a6",
-      "release_date": "2026-01-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.5.0": {
-      "download_url": "versions/1.5.0.zip",
-      "integrity": "63e0a86c0bebb5d5b709dd4f7b7f5e9d23f3b7e17e5acea5e245c25e686f170c",
-      "release_date": "2026-01-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.5.1": {
-      "download_url": "versions/1.5.1.zip",
-      "integrity": "ea73893bb23ef35901b908827cb2e250732ca3d365f906667526836bd67d7dde",
-      "release_date": "2026-01-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.5.2": {
-      "download_url": "versions/1.5.2.zip",
-      "integrity": "9bf799163107bd3d7dfcfcce2ec78b04797007896314c8e80305219d7dc09667",
-      "release_date": "2026-01-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "1.6.0": {
-      "download_url": "versions/1.6.0.zip",
-      "integrity": "86d11be8f296a75d15630b67fe4d7c5d871df2dc2a1b0e5477cf25f8af882632",
-      "release_date": "2026-01-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.0.0": {
-      "download_url": "versions/2.0.0.zip",
-      "integrity": "7961cc70ceaa4ff27a6dc0dc62774cbfa4df3bcb7ea05a000afd3da2cdeb0104",
-      "release_date": "2026-01-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.1.0": {
-      "download_url": "versions/2.1.0.zip",
-      "integrity": "09484353211a14964a7cfd279b648f40ab68839daa6d316213d8b05a18b6955c",
-      "release_date": "2026-01-12",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.2.0": {
-      "download_url": "versions/2.2.0.zip",
-      "integrity": "6202ddfd65031aac46987d4f3f7429c8210def08b8a76c810436f9b7d7a35f72",
-      "release_date": "2026-01-12",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.3.0": {
-      "download_url": "versions/2.3.0.zip",
-      "integrity": "f82e81e5b9e4b54f12c7d4785930c7176edc49b58273ba03b0f87a057c30d088",
-      "release_date": "2026-01-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.4.0": {
-      "download_url": "versions/2.4.0.zip",
-      "integrity": "b890cdaac062b95869b3c4e94b5e0fc5845e268c3eddbdcabf2029b47ebb7f5b",
-      "release_date": "2026-01-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.5.0": {
-      "download_url": "versions/2.5.0.zip",
-      "integrity": "2bdce021ab022d36a4a07c8139ab61d13578684e2cf648253dee1f19ab1c8fd2",
-      "release_date": "2026-01-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.6.0": {
-      "download_url": "versions/2.6.0.zip",
-      "integrity": "a3f799187fd72c4d424931eefce42b4aa357897aa5a07384fe1aad0a65445a24",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.7.0": {
-      "download_url": "versions/2.7.0.zip",
-      "integrity": "653c2573b95a1ccf8ea82b98b044ea48791a6fb1172bbcb85f87bc8fe4eae192",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.8.0": {
-      "download_url": "versions/2.8.0.zip",
-      "integrity": "47549ac99502b16c8212ca63f6909216dc3f3dc1ee8cd08a3c281954789eea62",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.9.0": {
-      "download_url": "versions/2.9.0.zip",
-      "integrity": "614d64af423d10b9b83ad4580752a4468d4994331afe4baf56a6398424ac5541",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.10.0": {
-      "download_url": "versions/2.10.0.zip",
-      "integrity": "ff714da45b92dfeb2218ef8fe11e0ccad80c0b30acebd722e56ea124ec1a4e50",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.11.0": {
-      "download_url": "versions/2.11.0.zip",
-      "integrity": "5e0b35173fc332c8bc14a75a299b5d3d16357e275690c5c89449af743cb53b43",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.12.0": {
-      "download_url": "versions/2.12.0.zip",
-      "integrity": "6f112dd5e96f5fa7434e9c1d275104847d43402f8a67cb82a1802c3ac0cd7b10",
-      "release_date": "2026-01-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.13.0": {
-      "download_url": "versions/2.13.0.zip",
-      "integrity": "2eecb7f991df0e5049341baf504789de228735f7d0d5f2a91a8287b495c2532a",
-      "release_date": "2026-01-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.14.0": {
-      "download_url": "versions/2.14.0.zip",
-      "integrity": "b4535fc6adde7392188e8f12388bf083d74c7e3bdf1a0aa73fd0582305c4f13d",
-      "release_date": "2026-01-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.15.0": {
-      "download_url": "versions/2.15.0.zip",
-      "integrity": "01fff1e3c00d6a6a2d24ef5c179e48a72271445e930609716cec4eb5f971a3fe",
-      "release_date": "2026-01-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.16.0": {
-      "download_url": "versions/2.16.0.zip",
-      "integrity": "b35e8b756f7e18c1848762f696711fb6c331037b22488b437df155731461cb78",
-      "release_date": "2026-01-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.16.1": {
-      "download_url": "versions/2.16.1.zip",
-      "integrity": "c17051da235e7c57e0ffc5ff1c34e44a6524923c45e5ba6756b4442837e6f230",
-      "release_date": "2026-01-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.17.0": {
-      "download_url": "versions/2.17.0.zip",
-      "integrity": "cdab222dc10e0084ef26c1b11a00fd21aec9c608efa49d539ad49d9fb57676a8",
-      "release_date": "2026-01-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "2.18.0": {
-      "download_url": "versions/2.18.0.zip",
-      "integrity": "9b4559caca0431193869c869a45d39466294289c2b11c9b546e0699637460a04",
-      "release_date": "2026-01-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "3.0.0": {
-      "download_url": "versions/3.0.0.zip",
-      "integrity": "926fd14ec892696a8e9f1fa2675f8d6200dc7d24a4a6b52fee6204768ae688c8",
-      "release_date": "2026-01-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "3.1.0": {
-      "download_url": "versions/3.1.0.zip",
-      "integrity": "40bb667801d0b93aa60482db1f4bb382376f2209f02740c91f844d9a0c471f13",
-      "release_date": "2026-01-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "3.2.0": {
-      "download_url": "versions/3.2.0.zip",
-      "integrity": "8834e143561eeff9483da95664e8b4175bb5f88d1ba671d83028452ea60dab89",
-      "release_date": "2026-01-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "3.3.0": {
-      "download_url": "versions/3.3.0.zip",
-      "integrity": "48ba7bb8994f3c60fc859aadd901367f6dcb9b70896663614a07bded71a72ba5",
-      "release_date": "2026-01-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "3.4.0": {
-      "download_url": "versions/3.4.0.zip",
-      "integrity": "5e7d93e8ce8c2224976211106aee1b987da8f3457ed26c09ed5adc6007a5357f",
-      "release_date": "2026-01-17",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.0.0": {
-      "download_url": "versions/4.0.0.zip",
-      "integrity": "87bd2930eea58cebdf16160249533d58668ca7d4ac4415e0a30fb70035dcccf0",
-      "release_date": "2026-01-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.1.0": {
-      "download_url": "versions/4.1.0.zip",
-      "integrity": "ced5293447ed8e73ddf3c232d79b1d1c8e92acd6ff7d41c4e9b9d1ae9276dacd",
-      "release_date": "2026-01-18",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.2.0": {
-      "download_url": "versions/4.2.0.zip",
-      "integrity": "1ddfcf9279397ce7e080922c7af8143bba3b21df1d81d8fb1d8a30a2571a396d",
-      "release_date": "2026-01-19",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.3.0": {
-      "download_url": "versions/4.3.0.zip",
-      "integrity": "3f97bd2be7b3018f24cab110dd48cf27397c076adb87b869d06e2d5d0c34959f",
-      "release_date": "2026-01-21",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.4.0": {
-      "download_url": "versions/4.4.0.zip",
-      "integrity": "b0c63d66d7ef84fe4029f895a026b81f93c01035a83907e39832b7e4a0908553",
-      "release_date": "2026-01-21",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.5.0": {
-      "download_url": "versions/4.5.0.zip",
-      "integrity": "6c5ac01fa2d7babed6a0c135117247cabf5d8fd9f91f824369ba0fe1ec1440b6",
-      "release_date": "2026-02-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.5.1": {
-      "download_url": "versions/4.5.1.zip",
-      "integrity": "7960130c77f5e4b06056449fdc406171b2f6d768d4725ab6f34d4677ded5e37c",
-      "release_date": "2026-02-03",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.6.0": {
-      "download_url": "versions/4.6.0.zip",
-      "integrity": "6ab3352e06cfaffb9f326189e437b294fca793f6f54de60157d1311e213c1569",
-      "release_date": "2026-03-02",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.7.0": {
-      "download_url": "versions/4.7.0.zip",
-      "integrity": "c25a903a661a4745356f9bd12881eda6cd8ebaeb69e68bb446c230a5a619e0b1",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.8.0": {
-      "download_url": "versions/4.8.0.zip",
-      "integrity": "f7cebd8971d12bafabc7fc855168a556d03d96ceeaf5cf8a242d08bbfa92e3fe",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.9.0": {
-      "download_url": "versions/4.9.0.zip",
-      "integrity": "7d22675ff9cfa82325656a472a21829e205a77ddec893c550689d4128867944c",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.10.0": {
-      "download_url": "versions/4.10.0.zip",
-      "integrity": "06c028bb9e5d42998cb59d50f9d4ba625fad33a636b3f2e2d11ef828d7b4591d",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.11.0": {
-      "download_url": "versions/4.11.0.zip",
-      "integrity": "79f38868fab6db80d9626f15cdd5d04485a0c8ea2563fe295007ea4c20de38b8",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.12.0": {
-      "download_url": "versions/4.12.0.zip",
-      "integrity": "237ab4769bca238b97c98ce9fda24d4e498376a45f3d8fb74aa689a1527e2117",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.0": {
-      "download_url": "versions/4.13.0.zip",
-      "integrity": "4fbacc456b4f5d41772f5725c19042b70250e5e11a08ce71205fb21ac65e0e0e",
-      "release_date": "2026-03-07",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.1": {
-      "download_url": "versions/4.13.1.zip",
-      "integrity": "6e1ac65060fb2ed36795b1d55105755d273b3c2f9dd2e52a210081a55fdd0596",
-      "release_date": "2026-03-27",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.2": {
-      "download_url": "versions/4.13.2.zip",
-      "integrity": "f0e6bf6bc56db59512d7219cbc31c736e0be30b1226e2ac8bbd4a30523037de2",
-      "release_date": "2026-04-04",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.3": {
-      "download_url": "versions/4.13.3.zip",
-      "integrity": "1700815c4b81ab69e272a9919658c6bd8eb93794358583c9ed41f96ac40b3abd",
-      "release_date": "2026-04-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.4": {
-      "download_url": "versions/4.13.4.zip",
-      "integrity": "e0bf2c5f895af2e3e545be864b4e3c4133f493f3c15db8977eb4ef9cbc86e257",
-      "release_date": "2026-04-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.5": {
-      "download_url": "versions/4.13.5.zip",
-      "integrity": "1345145d9022615608ef07f05c5999b49af6fcd38525d96c8206283ddb9027dd",
-      "release_date": "2026-04-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.6": {
-      "download_url": "versions/4.13.6.zip",
-      "integrity": "688534eb8928707e319c323c4024215367f182247b3bbafed47638332d5166bb",
-      "release_date": "2026-04-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.7": {
-      "download_url": "versions/4.13.7.zip",
-      "integrity": "403702dbbe6f1579450f139426aa1d3deaec32d52351c7a502f8ea273951d3fe",
-      "release_date": "2026-06-04",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.8": {
-      "download_url": "versions/4.13.8.zip",
-      "integrity": "7acaa6afdc2e02ce0f772e2b4f13bbe7f3d44ddd6b43422726d744ff424dfac9",
-      "release_date": "2026-06-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.13.9": {
-      "download_url": "versions/4.13.9.zip",
-      "integrity": "79d629819f642b634845b90b0470b4796e89b12524a3119c580d38fd327b7f94",
-      "release_date": "2026-06-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.14.0": {
-      "download_url": "versions/4.14.0.zip",
-      "integrity": "11c1c9cb99eea9a24297a133a947ce3bad1525af4fee6d907ddd9250ea0dd0fd",
-      "release_date": "2026-06-05",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.14.1": {
-      "download_url": "versions/4.14.1.zip",
-      "integrity": "e49aaeca8b1f7670dd4535956c6d5b22ca84450bad88189dfca85cd29603feb3",
-      "release_date": "2026-06-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.14.2": {
-      "download_url": "versions/4.14.2.zip",
-      "integrity": "cf5874e2c3ccb6c0b1073961201685d499cdb6664300674ff6abbc835c3831dc",
-      "release_date": "2026-06-09",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.14.3": {
-      "download_url": "versions/4.14.3.zip",
-      "integrity": "5520ecb8cc029ed52c2ccc47bdbd8222dcd2ffcf81cb30113495a8d4787ebc73",
-      "release_date": "2026-06-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.0": {
-      "download_url": "versions/4.15.0.zip",
-      "integrity": "69bcb4f03e346afaadc4b378a3bd7eabb23d91e0df22ac672847a98adbbefe14",
-      "release_date": "2026-06-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.1": {
-      "download_url": "versions/4.15.1.zip",
-      "integrity": "f132c4f38f428e98e21002a640975d291e6156999412a44db895ec52a542a696",
-      "release_date": "2026-06-10",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.2": {
-      "download_url": "versions/4.15.2.zip",
-      "integrity": "6398dfbd5cb54fc92479b38db66de69d91e8e829b07d517bda10674a9290d286",
-      "release_date": "2026-06-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.3": {
-      "download_url": "versions/4.15.3.zip",
-      "integrity": "4309b594fe18db573e1780f11bcad9b9786558788d4d8db131d5caa1eff3ae23",
-      "release_date": "2026-06-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.4": {
-      "download_url": "versions/4.15.4.zip",
-      "integrity": "265f441430ae3a7e13ca410c0abf829ece1f36a462cacb6b77fdfe6b8b8c1ab2",
-      "release_date": "2026-06-11",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.5": {
-      "download_url": "versions/4.15.5.zip",
-      "integrity": "ba989bfead9fa45b8aff58c58c303e363dc163e19d6e95f01d9a9c9c6ce9be51",
-      "release_date": "2026-06-12",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.6": {
-      "download_url": "versions/4.15.6.zip",
-      "integrity": "8b9b284f32f1f946837db3ecadfc135cd589217af9f375f015c33432949b6868",
-      "release_date": "2026-06-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.7": {
-      "download_url": "versions/4.15.7.zip",
-      "integrity": "a8113d15a28631c9964ed0103209ef8ffe1c5310fe84d6113c380bb70b36aab6",
-      "release_date": "2026-06-13",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.8": {
-      "download_url": "versions/4.15.8.zip",
-      "integrity": "97dff501f6661047269e8657c4f4caedc5d08aa443561172440a874d0c471902",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.9": {
-      "download_url": "versions/4.15.9.zip",
-      "integrity": "aa61682f74655640e8fb3c630d783b29d5a6ee50424830b84da80f5b59064e9f",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.10": {
-      "download_url": "versions/4.15.10.zip",
-      "integrity": "f5fde75cbe56afff5d5585001c8bfba37ebbf743c5d51e2b4f20efb761008880",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.11": {
-      "download_url": "versions/4.15.11.zip",
-      "integrity": "22ae97ae36615a9154bb3a4edcf77c4288595c5d3a585d7a607951eb50bbe1b5",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.12": {
-      "download_url": "versions/4.15.12.zip",
-      "integrity": "f684b4310743e2c78151838005b825dc57371cd8d7a8336d3fd2ad5b64cb09e2",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.13": {
-      "download_url": "versions/4.15.13.zip",
-      "integrity": "e432a8390860e7c3ccecf45797799f83fd9e143a77f08339d986a047d27a092c",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "4.15.14": {
-      "download_url": "versions/4.15.14.zip",
-      "integrity": "8db6145501579fdd5fcededaa4741f7f35775f8ccf32c6d7dcb558d32ff8a786",
-      "release_date": "2026-06-14",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.0": {
-      "download_url": "versions/5.0.0.zip",
-      "integrity": "3db1bcdd5562970fc82db2adb4f9c73d08301043ac389bac1916691c58d17d3a",
-      "release_date": "2026-06-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.1": {
-      "download_url": "versions/5.0.1.zip",
-      "integrity": "8bd4b634890f39b80d4929fd1db7ae0c62af0d7bf2fb026fccb619451c1ab547",
-      "release_date": "2026-06-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.2": {
-      "download_url": "versions/5.0.2.zip",
-      "integrity": "3f83bc169ffe24ef6b57d361ac03dc81c78cf57c805387bde1cb66bbb1e37ee6",
-      "release_date": "2026-06-15",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.3": {
-      "download_url": "versions/5.0.3.zip",
-      "integrity": "540d7bef5699382aa435217180e1b3aff3c5d61a85b668d288aaedcf9d0a9a4b",
-      "release_date": "2026-06-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.4": {
-      "download_url": "versions/5.0.4.zip",
-      "integrity": "015ebac9e3f837492d253c3b6f7c3cc31623c187d93e1b372d01034cdf7f9665",
-      "release_date": "2026-06-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    },
-    "5.0.5": {
-      "download_url": "versions/5.0.5.zip",
-      "integrity": "3de9289bd6c7a03c739674f8a7de00ce9da4eae0a63e30288a73d36a5cc1c6f3",
-      "release_date": "2026-06-16",
-      "release_notes_url": "https://github.com/forge-kernel/forge/blob/main/CHANGELOG.md",
-      "require": {
-        "php": ">=8.3"
-      }
-    }
-  }
 }
